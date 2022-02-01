@@ -2,7 +2,7 @@
 complete coding and documentation for python and datascience.
 
 ## CONTROL FLOW
--if
+- if
 -if else
 -while
 -do while
