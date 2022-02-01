@@ -13,7 +13,7 @@ complete coding and documentation for python and datascience.
 
 if is a decision  making statement,if the condition is true then the certain block will be executes otherwise the else block will be executed.
 
-### Syntax
+### Syntax:
 
 ```
 if(condition):
@@ -35,7 +35,7 @@ else:
 
 if else if is the alternate statement of if,means the ``if`` condition is false then the ``else if`` condition is will be executed and both the blocks are false then the else part will be executed.
 
-### Syntax
+### Syntax:
 ```
 if(condition):
   <block of statement>
@@ -58,7 +58,22 @@ else:
 ```
 
 ## Nested if Statement
+A nested if is an if statement that is the target of another if statement.Nested if statement means if statement inside another if statement.
 
+### Syntax:
 
+```
+if(condition 1):
+  <Block of statement>
+  #Executes when condition 1 is true
+  if(condition 2):
+    <Block of statement>
+    #Executes when condition 2 is true
+  #if Block ends here
+#if Block ends here    
 
+```
 
+### Example
+
+```
