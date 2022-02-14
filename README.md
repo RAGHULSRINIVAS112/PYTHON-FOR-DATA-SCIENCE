@@ -229,5 +229,39 @@ print(result)
 ```
 In this Example the output is ``30`` because in return statement the function call statement stored in the variable called ``result`` will be displayed if the variable is called.
 
+## Arbitary Arguments(Args)
 
+Arbitary arguments are also called args. arbitary arguments are used to add n number of arguments without predefine parameters.args form the set of values as tuple in the function.
+
+### Example:
+
+```
+def func(*args):
+  print('the number belonmgs to index zero is {}'.format(*args[0]))
+
+
+func('1','2');
+```
+
+### Output:
+
+```
+the number belonmgs to index zero is 1
+```
+## Keyword arguments 
+
+Keyoword arguments are also called as kwargs.keyword arguments are use to add n number of dictonaries wothout defining parameter.
+
+### Example:
+```
+def funct(**kwargs):
+  if 'fruit'in kwargs:
+    print('my fruit of choice {}'.format(kwargs['fruit']))
+
+funct(fruit="apple")
+```
+### Output:
+```
+my fruit of choice apple
+```
 
